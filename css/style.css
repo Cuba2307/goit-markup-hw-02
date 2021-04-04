@@ -1,3 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color: #E5E5E5;
+}
+.icon{
+    /* text-decoration: none; */
+}
+.icon-web{
+    color:#2196F3;
+    /* text-emphasis: none; */
 }
