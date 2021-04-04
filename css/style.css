@@ -37,25 +37,44 @@ body{
 .site-nav .link:focus{
     color: var(--accent-text-color);
 }
-.aut-site{
-    text-decoration: none;
-}
 .aut-site .link{
     color: var(--accent-link-color);
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
 }
 .aut-site .link:hover,
 .aut-site .link:focus{
     color: var(--accent-text-color);
+}
+/* Portfolio navigation */
+.button-link{
+    background-color: var(--background-color-list);
+    color: var(--primary-text-color);
+}
+.button-link:hover,
+.button-link:focus{
+    background-color: var(--accent-text-color);
+    color: var(--background-color-list);
 }
 /* Main content */
 .title{
     color: var(--main-text-color);
 }
 .button{
-    color: var(--background-color-list);
-    background-color: var(--accent-text-color);
+    color: var(--main-text-color);
+    background-color: var(--accent-text-color)
+}
+.title-advange{
+    color: var(--second-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.text-title{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--accent-link-color);
 }
