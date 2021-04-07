@@ -59,12 +59,23 @@ body{
     color: var(--background-color-list);
 }
 /* Main content */
+.hero {
+    background-color: var(--background-color);
+    width: 1600px;
+    height: 600px;
+}
 .title{
     color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    padding-top: 295px;
+    padding-left: 495px;
 }
 .button{
     color: var(--main-text-color);
-    background-color: var(--accent-text-color)
+    background-color: var(--accent-text-color);
+    margin-left: 40%;
 }
 .title-advange{
     color: var(--second-text-color);
@@ -73,8 +84,46 @@ body{
     line-height: 16px;
 }
 .text-title{
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    color: var(--accent-link-color);
+}
+/* What are we doing */
+.section-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color:var(--second-text-color)
+}
+.title-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:var(--second-text-color)
+}
+.second-name{
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--accent-link-color);
+}
+/* Footer conteten */
+.footer-content{
+    background-color: var(--background-color);
+}
+.footer-adress{
+    font-size: 14px;
+    line-height: 24px;
+    color:var(--main-text-color)
+}
+/* Portfolio page */
+.port-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color:var(--second-text-color)
+}
+.about-title{
+    font-size: 16px;
+    line-height: 30px;
     color: var(--accent-link-color);
 }
