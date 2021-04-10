@@ -12,8 +12,13 @@ body{
     font-family: 'Roboto', sans-serif;
     color:#E5E5E5;
     background-color: #ffffff;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 /* Header content */
+.header-content{
+    letter-spacing: 0.02em;
+}
 .list{
     list-style: none;
 }
@@ -23,9 +28,6 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-}
-.web{
-    color:var(--accent-text-color);
 }
 .site-nav .link{
     font-weight: 500;
@@ -37,6 +39,9 @@ body{
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: var(--accent-text-color);
+}
+.site-nav .link-current,.web{
+    color:var(--accent-text-color);
 }
 .aut-site .link{
     color: var(--accent-link-color);
@@ -61,6 +66,19 @@ body{
     color: var(--background-color-list);
 }
 /* Main content */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .hero {
     background-color: var(--background-color);
 }
@@ -69,6 +87,8 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 .button{
     color: var(--main-text-color);
@@ -80,6 +100,7 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.33;
+    text-transform: uppercase;
 }
 .text-title{
     font-size: 14px;
@@ -105,6 +126,9 @@ body{
     color: var(--accent-link-color);
 }
 /* Footer conteten */
+.studio{
+    color:var(--main-text-color);
+}
 .footer-content{
     background-color: var(--background-color);
 }
@@ -112,6 +136,10 @@ body{
     font-size: 14px;
     line-height: 1.71;
     color:var(--main-text-color);
+    font-style: normal;
+}
+.link{
+    font-style: normal;
 }
 /* Portfolio page */
 .port-title{
@@ -119,6 +147,7 @@ body{
     font-size: 18px;
     line-height: 2;
     color:var(--second-text-color);
+    letter-spacing: 0.06em;
 }
 .about-title{
     font-size: 16px;
