@@ -10,7 +10,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    color:#E5E5E5;
+    color:#ffffff;
     background-color: #ffffff;
     font-style: normal;
     letter-spacing: 0.03em;
@@ -59,7 +59,7 @@ body{
     background-color: var(--background-color-list);
     color: var(--primary-text-color);
     cursor: pointer;
-    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
 }
