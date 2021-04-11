@@ -59,6 +59,9 @@ body{
     background-color: var(--background-color-list);
     color: var(--primary-text-color);
     cursor: pointer;
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 .button-link:hover,
 .button-link:focus{
@@ -124,6 +127,10 @@ body{
     font-size: 16px;
     line-height: 1.18;
     color: var(--accent-link-color);
+}
+/* Our Team */
+.section-team{
+    background-color: var(--background-color-list);
 }
 /* Footer conteten */
 .studio{
